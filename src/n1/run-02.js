@@ -58,9 +58,10 @@ class Race {
       rabbit,
       start,
       end,
-      pad
+      pad,
+      steps
     } = this;
-    const initState = `${turtle}${rabbit}${start}${pad.repeat(50)}${end}`;
+    const initState = `${turtle}${rabbit}${start}${pad.repeat(steps)}${end}`;
     const racing = chalkWorker.rainbow(initState);
     let t = 0;
     this.timer = setInterval(()=>{

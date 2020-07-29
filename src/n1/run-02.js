@@ -32,7 +32,7 @@ class Race {
     } = this;
     let state = ''
     if (t >= stopAt) {
-      if (t >= 50) {
+      if (t >= steps) {
         state = `${start}${pad.repeat(stopAt)}${rabbit}${pad.repeat(steps - stopAt)}${end}${turtle}`;
         clearInterval(this.timer);
       } else {

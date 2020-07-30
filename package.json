@@ -19,5 +19,8 @@
   "homepage": "https://github.com/smileyby/node-001#readme",
   "devDependencies": {
     "chalk-animation": "^1.6.0"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
   }
 }
